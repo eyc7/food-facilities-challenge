@@ -1,5 +1,15 @@
 # Food Facilities Challenge
 
+MOST IMPORTANTLY 
+
+Github Repo: https://github.com/eyc7/food-facilities-challenge 
+
+Served on Google Cloud Frontend Test here: https://food-frontend-688153142575.us-central1.run.app/
+<img width="1728" alt="Screenshot 2025-06-14 at 2 05 51 PM" src="https://github.com/user-attachments/assets/742c4144-ef67-4726-95d7-a82210a71b8c" />
+
+Backend hosted: https://my-flask-app-688153142575.us-central1.run.app/
+
+
 Use this data set about Mobile Food Facilities in San Francisco (https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data) to build an application. Please clarify with your recruiter first if you will be doing the Backend Focused or Frontend Focused version of the project, and what language you will be doing the challenge in. Make sure this is clear before you start this challenge.
 
 **Backend Focused Version**
@@ -210,3 +220,4 @@ Then do all this in google cloud to host frontend react app, bakcend flask app, 
     "longitude": -122.4194,
     "statuses": ["APPROVED"]
   }'
+
