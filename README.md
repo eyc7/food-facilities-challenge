@@ -147,6 +147,7 @@ In summary, the Google Distance Matrix API offers quick and easy setup with real
   "statuses": ["APPROVED", "EXPIRED"]
 }'
 
+```
 [
     {
         "address": "150 OTIS ST",
@@ -194,6 +195,7 @@ In summary, the Google Distance Matrix API offers quick and easy setup with real
         "zipcodes": "28853"
     }
 ]
+```
 
 
 - This batch processing has pretty high latency at 500 records. Any higher, we would need to build out a custom solution using PostGIS and PostgreSQL, which is the exact reason that I picked this relational database. Some possible solutions is caching results for a longitude and latitude and/or concurrently make the API calls.
